@@ -1,0 +1,122 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.nav_logo {
+  display: flex;
+  color: #fff;
+}
+.logo {
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  text-align: center;
+  background: #862bf6;
+  border-radius: 50%;
+  font-weight: 600;
+  margin-right: 0.225rem;
+}
+.logo a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%, 75%);
+}
+/* form css */
+.main {
+  width: 100vw;
+  height: 82vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 624px) {
+  .main {
+    height: 84vh;
+  }
+}
+.main .form {
+  max-width: 620px;
+  background-image: url("./pexels-meri-verbina-15517793.jpg");
+  object-fit: cover;
+  margin: 0% auto;
+  border: 1px solid #dddddd;
+  padding: 34px;
+  border-radius: 6px;
+}
+/* This is the style of our error messages */
+.error {
+  width: 100%;
+  /* margin-top: 8px;
+  padding: 3px; */
+  font-size: 80%;
+  color: white;
+  background-color: rgb(157, 25, 233);
+  border-radius: 0 0 5px 5px;
+}
+button {
+  width: 320px;
+  max-width: 340px;
+  padding: 2px 20px;
+  background-color: #9700ff;
+  border-radius: 16px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/*  footer  */
+
+.section5 {
+  max-width: 1280px;
+  margin: 0% auto;
+  border-top: 2px solid #ddd;
+  padding-top: 10px;
+}
+@media screen and (max-width: 624px) {
+  .section5 {
+    padding: 16px 40px;
+    padding-bottom: 0%;
+    /* background-color: lightgreen; */
+  }
+}
+.section5 .footer {
+  display: flex;
+  justify-content: space-between;
+}
+.emailbtn p a {
+  text-decoration: none;
+  color: #000;
+}
+.someMenu li {
+  list-style: none;
+  color: #000;
+}
+.someMenu li a {
+  text-decoration: none;
+  color: #000;
+}
