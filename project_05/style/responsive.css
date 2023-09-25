@@ -1,0 +1,36 @@
+/*  card responsive code */
+@media(min-width:924px) {
+    .card_text {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .first-card-box {
+        display: flex;
+    }
+}
+
+@media(min-width:724px) {
+    .card_component {
+        width: 350px;
+    }
+
+    .first-card-box {
+        display: flex;
+    }
+
+
+}
+
+@media(max-width:724px) {
+    .sponser_img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .sponser_logo {
+        width: 164px;
+    }
+
+
+}
